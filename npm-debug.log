@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.1.44
+3 info using node@v0.9.1-pre
+4 verbose config file /Users/wangjun/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose read json /Users/wangjun/html5workspace/XmHttpRequest/package.json
+8 error install Couldn't read dependencies
+9 error Error: ENOENT, open '/Users/wangjun/html5workspace/XmHttpRequest/package.json'
+10 error If you need help, you may report this log at:
+10 error     <http://github.com/isaacs/npm/issues>
+10 error or email it to:
+10 error     <npm-@googlegroups.com>
+11 error System Darwin 12.1.0
+12 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+13 error cwd /Users/wangjun/html5workspace/XmHttpRequest
+14 error node -v v0.9.1-pre
+15 error npm -v 1.1.44
+16 error path /Users/wangjun/html5workspace/XmHttpRequest/package.json
+17 error code ENOENT
+18 error errno 34
+19 verbose exit [ 34, true ]
